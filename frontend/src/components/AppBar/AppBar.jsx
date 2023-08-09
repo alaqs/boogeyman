@@ -1,7 +1,7 @@
 import {Grid, Typography} from "@mui/material";
 
 const Logo = () => (
-  <Typography variant={"h4"} sx={{color: "white"}}><strong>techmelon</strong></Typography>
+  <Typography variant={"h4"} sx={{color: "white"}}><strong>tech<span style={{color: "rgb(253 87 106)"}}>melon</span></strong></Typography>
 );
 
 export const AppBar = () => {

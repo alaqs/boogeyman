@@ -4,7 +4,7 @@ export const Description = () => {
   return (
     <>
       <Typography variant={"h4"} sx={{marginBottom: 4}}>
-        Welcome to <strong>techmelon!</strong> 🍉
+        Welcome to <strong>tech<span style={{color: "rgb(253 87 106)"}}>melon</span>!</strong> 🍉
       </Typography>
       <Typography variant={"body1"}>
         We bring together the perfect blend of business acumen and technical expertise to deliver innovative software.
