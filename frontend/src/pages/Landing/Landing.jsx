@@ -11,13 +11,13 @@ export const Landing = () => {
   return (
     <>
       <AppBar/>
-      <Box sx={{paddingY: 8, paddingX: 24}}>
+      <Box sx={{paddingY: 8, paddingX: 24, marinBottom: 16}}>
         <Box sx={{textAlign: "center"}}>
           <Headline/>
           <SubHeading/>
           <Initiate/>
         </Box>
-        <Box my={8}>
+        <Box my={4}>
           <Description/>
         </Box>
         <Typography variant={"h4"} sx={{marginBottom: 4}}>
