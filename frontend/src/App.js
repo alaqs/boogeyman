@@ -1,17 +1,12 @@
 import "./App.css";
-import {Landing} from "./pages/Landing";
-import {createTheme, ThemeProvider} from "@mui/material";
+import { Home } from "./pages/Home";
+import { createTheme, ThemeProvider } from "@mui/material";
 
-
-const theme = createTheme({
-  typography: {
-    fontFamily: 'Manrope, sans-serif',
-  },
-});
+const theme = createTheme({});
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Landing />
+      <Home />
     </ThemeProvider>
   );
 }
