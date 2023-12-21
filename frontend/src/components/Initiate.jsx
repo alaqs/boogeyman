@@ -1,5 +1,6 @@
 import { Button, Dialog, DialogTitle } from "@mui/material";
 import React from "react";
+import { colors } from "../colors";
 
 export const Initiate = () => {
   const [open, setOpen] = React.useState(false);
@@ -15,15 +16,14 @@ export const Initiate = () => {
           color: "black",
           fontWeight: 700,
           textTransform: "initial",
-          backgroundColor: "#a3bab4",
-          borderColor: "#274442",
+          backgroundColor: colors.green.light,
           "&:hover": {
-            backgroundColor: "#748e81",
+            backgroundColor: colors.green.dark,
             boxShadow: "none",
           },
           "&:active": {
             boxShadow: "none",
-            backgroundColor: "#748e81",
+            backgroundColor: colors.green.dark,
           },
           "&:focus": {
             boxShadow: "0 0 0 0.2rem rgba(0,123,255,.5)",

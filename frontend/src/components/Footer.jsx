@@ -1,5 +1,6 @@
 import { Stack } from "@mui/material";
 import { EmailPrompt } from "./EmailPrompt";
+import { colors } from "../colors";
 
 export const footerHeight = "3rem";
 
@@ -11,8 +12,7 @@ export const Footer = () => {
         bottom: 0,
         width: "100%",
         height: footerHeight,
-        color: "white",
-        backgroundColor: "black",
+        backgroundColor: colors.green.light,
       }}
     >
       <Stack

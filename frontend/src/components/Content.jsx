@@ -1,5 +1,5 @@
 export const Content = () => (
-  <span style={{ fontSize: "1.5rem", lineHeight: "2rem" }}>
+  <span style={{ fontSize: "1.2rem", lineHeight: "2rem" }}>
     <span style={{ fontWeight: 600 }}>"No problems" for us:</span>
     <ul>
       <li>

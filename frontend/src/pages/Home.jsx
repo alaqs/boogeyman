@@ -1,7 +1,7 @@
 import { Stack, Box } from "@mui/material";
 import Grid from "@mui/system/Unstable_Grid";
 import {
-  Logo,
+  ImageLogo,
   Tagline,
   Description,
   Content,
@@ -13,12 +13,12 @@ import {
 const Body = () => (
   <Stack alignItems={"center"}>
     <Box sx={{ mt: "2vh" }}>
-      <Logo />
+      <ImageLogo />
     </Box>
-    <Box sx={{ mt: "3vh", textAlign: "center" }}>
+    <Box sx={{ mt: "5vh", textAlign: "center" }}>
       <Tagline />
     </Box>
-    <Box sx={{ mt: "3vh" }}>
+    <Box sx={{ mt: "8vh" }}>
       <Description />
     </Box>
     <Box sx={{ mt: "5vh" }}>

@@ -2,7 +2,7 @@ import { Highlight } from "./Highlight";
 import { Link } from "./Link";
 
 export const Description = () => (
-  <span style={{ fontSize: "1.5rem", lineHeight: "2rem" }}>
+  <span style={{ fontSize: "1.2rem", lineHeight: "2rem" }}>
     Run by a{" "}
     <Link href="https://www.linkedin.com/in/alimaqsood95/">
       seasoned engineer
