@@ -12,7 +12,7 @@ export const Description = () => (
       top-notch entrepreneur
     </Link>{" "}
     (ex-Barclays), <Highlight>techmelon</Highlight> is keen on delivering one
-    goal - get you the muscle 💪🏽 and brains 🧠 to build amazing tech for your
+    goal - get you the 💪🏽 muscle and 🧠 brains to build amazing tech for your
     business, and do wonders!
   </span>
 );
