@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a30ada2.css",
-    "main.js": "/static/js/main.1683293c.js",
+    "main.css": "/static/css/main.5dc83948.css",
+    "main.js": "/static/js/main.3d75f9c3.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/techmelon-logo.png": "/static/media/techmelon-logo.3aaa48d6dbee4ec8cf29.png",
     "index.html": "/index.html",
-    "main.1a30ada2.css.map": "/static/css/main.1a30ada2.css.map",
-    "main.1683293c.js.map": "/static/js/main.1683293c.js.map",
+    "main.5dc83948.css.map": "/static/css/main.5dc83948.css.map",
+    "main.3d75f9c3.js.map": "/static/js/main.3d75f9c3.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a30ada2.css",
-    "static/js/main.1683293c.js"
+    "static/css/main.5dc83948.css",
+    "static/js/main.3d75f9c3.js"
   ]
 }
