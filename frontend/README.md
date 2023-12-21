@@ -3,8 +3,13 @@
 ## Development
 
 ### `npm install`
-### `npm start`
+### `npm run start`
 
 ## Deployment
 
-### `npm deploy`
+### `npm run deploy`
+
+You can also add a "sort of" build message by doing 👇🏽 which will appear as a commit message on the `gh-pages` branch
+```
+npm run deploy -- -m "build message"
+```
