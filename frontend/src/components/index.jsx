@@ -7,3 +7,4 @@ export * from "./Link";
 export * from "./Logo";
 export * from "./Tagline";
 export * from "./Footer";
+export * from "./AboutUs";

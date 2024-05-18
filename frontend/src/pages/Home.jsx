@@ -8,6 +8,7 @@ import {
   ContactUs,
   Footer,
   footerHeight,
+  AboutUs,
 } from "../components";
 
 const Body = () => (
@@ -15,17 +16,20 @@ const Body = () => (
     <Box sx={{ mt: "2vh" }}>
       <ImageLogo />
     </Box>
-    <Box sx={{ mt: "5vh", textAlign: "center" }}>
+    <Box sx={{ mt: "3vh", textAlign: "center" }}>
       <Tagline />
     </Box>
-    <Box sx={{ mt: "5vh" }}>
+    <Box sx={{ mt: "3vh" }}>
       <ContactUs />
     </Box>
-    <Box sx={{ mt: "8vh" }}>
+    <Box sx={{ mt: "3vh" }}>
       <Description />
     </Box>
-    <Box sx={{ mt: "5vh" }}>
+    <Box sx={{ mt: "3vh" }}>
       <Content />
+    </Box>
+    <Box sx={{ mt: "3vh", mb: "6vh" }}>
+      <AboutUs />
     </Box>
   </Stack>
 );
