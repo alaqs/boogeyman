@@ -12,6 +12,7 @@ const Avatar = ({name, brag}) => {
   );
 };
 
+// todo: add brags
 export const AboutUs = () => {
   return (
     <Stack direction="row" width="100%" alignItems={"center"} spacing={8}>

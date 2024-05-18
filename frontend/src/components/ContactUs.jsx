@@ -6,10 +6,10 @@ export const ContactUs = () => {
     <Stack width="100%" alignItems={"center"} spacing={2}>
       <Stack direction="row" spacing={8}>
         <ContactUsDialog label="I'm definitely sold!" />
-        <ContactUsDialog label="I'm almost sold!" />
+        <ContactUsDialog label="Need convincing!" />
       </Stack>
       <p style={{ fontSize: "0.8rem" }}>
-        (Psst! Both buttons will bring you to us!)
+        (psst! Both buttons will bring you to us!)
       </p>
     </Stack>
   );

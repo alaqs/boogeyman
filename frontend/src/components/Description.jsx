@@ -10,7 +10,7 @@ export const Description = () => (
     With a dynamic duo featuring{" "}
     <Link href="https://www.linkedin.com/in/alimaqsood95/">an ex-Amazon maestro</Link>{" "}
     and{" "}
-    <Link href="https://www.linkedin.com/in/saqib-r-chohan/">an ex-Barclays genius</Link>,{" "}
+    <Link href="https://www.linkedin.com/in/saqib-chohan-ba5b4a2b2/">an ex-Barclays genius</Link>,{" "}
     <Highlight>techmelon</Highlight> is your ticket to full-stack{" "}
     greatness! Let's flex those 💪🏽 muscles and light up those 🧠 brains{" "}
     as we build your rockstar full-stack engineering team!"

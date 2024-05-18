@@ -6,6 +6,7 @@ import {
   Description,
   Content,
   ContactUs,
+  ContactUsDialog,
   Footer,
   footerHeight,
   AboutUs,
@@ -27,6 +28,9 @@ const Body = () => (
     </Box>
     <Box sx={{ mt: "3vh" }}>
       <Content />
+    </Box>
+    <Box sx={{mt: "3vh"}}>
+      <ContactUsDialog label="That does it, I'm sold now ... Let's chat!" />
     </Box>
     <Box sx={{ mt: "3vh", mb: "6vh" }}>
       <AboutUs />
