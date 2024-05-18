@@ -29,10 +29,10 @@ const Body = () => (
     <Box sx={{ mt: "3vh" }}>
       <Content />
     </Box>
-    <Box sx={{mt: "3vh"}}>
+    <Box sx={{ mt: "3vh" }}>
       <ContactUsDialog label="That does it, I'm sold now ... Let's chat!" />
     </Box>
-    <Box sx={{ mt: "3vh", mb: "6vh" }}>
+    <Box sx={{ mt: "6vh", mb: "6vh" }}>
       <AboutUs />
     </Box>
   </Stack>

@@ -17,7 +17,7 @@ export const AboutUs = () => {
   return (
     <Stack direction="row" width="100%" alignItems={"center"} spacing={8}>
       <Avatar name="Ali" brag="Develops software / Full-stack eng. for 7 years"/>
-      <Avatar name="Saqib" brag="Develops business / Selling stuff for 7 years"/>
+      <Avatar name="Saqib" brag="Develops business / Building businesses for 7 years"/>
     </Stack>
   );
 };
