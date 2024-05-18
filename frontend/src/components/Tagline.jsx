@@ -1,8 +1,12 @@
-import {Highlight} from "./Highlight";
-
+import { Highlight } from "./Highlight";
 
 export const Tagline = () => (
-  <span style={{ fontSize: "2.5rem" }}>
-    Find the tech for <Highlight>your needs!</Highlight>
-  </span>
+  <>
+    <p style={{ fontSize: "2.5rem" }}>
+      The last <Highlight>Full-stack engineers</Highlight> you'll hire...
+    </p>
+    <p style={{ fontSize: "1.5rem" }}>
+      ... for React, Node, Java and AWS
+    </p>
+  </>
 );

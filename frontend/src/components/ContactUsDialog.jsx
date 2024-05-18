@@ -2,7 +2,7 @@ import { Button, Dialog, DialogTitle } from "@mui/material";
 import React from "react";
 import { colors } from "../colors";
 
-export const Initiate = () => {
+export const ContactUsDialog = ({label}) => {
   const [open, setOpen] = React.useState(false);
   const handleClose = React.useCallback(() => setOpen(false), []);
   const handleOpen = React.useCallback(() => setOpen(true), []);
@@ -30,7 +30,7 @@ export const Initiate = () => {
           },
         }}
       >
-        Lets start the conversation!
+        {label}
       </Button>
       <Dialog onClose={handleClose} open={open}>
         <DialogTitle>

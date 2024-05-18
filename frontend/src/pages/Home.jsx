@@ -5,7 +5,7 @@ import {
   Tagline,
   Description,
   Content,
-  Initiate,
+  ContactUs,
   Footer,
   footerHeight,
 } from "../components";
@@ -18,11 +18,11 @@ const Body = () => (
     <Box sx={{ mt: "5vh", textAlign: "center" }}>
       <Tagline />
     </Box>
+    <Box sx={{ mt: "5vh" }}>
+      <ContactUs />
+    </Box>
     <Box sx={{ mt: "8vh" }}>
       <Description />
-    </Box>
-    <Box sx={{ mt: "5vh" }}>
-      <Initiate />
     </Box>
     <Box sx={{ mt: "5vh" }}>
       <Content />
