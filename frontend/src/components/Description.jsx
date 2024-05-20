@@ -13,6 +13,6 @@ export const Description = () => (
     <Link href="https://www.linkedin.com/in/saqib-chohan-ba5b4a2b2/">an ex-Barclays genius</Link>,{" "}
     <Highlight>techmelon</Highlight> is your ticket to full-stack{" "}
     greatness! Let's flex those 💪🏽 muscles and light up those 🧠 brains{" "}
-    as we build your rockstar full-stack engineering team!"
+    as we build your rockstar full-stack engineering team!
   </span>
 );
