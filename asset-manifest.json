@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.5dc83948.css",
-    "main.js": "/static/js/main.c262dc1a.js",
+    "main.js": "/static/js/main.317d337b.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/ali.png": "/static/media/ali.beb89275a788d9f81a00.png",
     "static/media/saqib.png": "/static/media/saqib.da9e2ac791731ef48410.png",
     "static/media/techmelon-logo.png": "/static/media/techmelon-logo.3aaa48d6dbee4ec8cf29.png",
-    "static/media/ali-drawn.jpeg": "/static/media/ali-drawn.8dd88a67af1cb7b8d711.jpeg",
     "index.html": "/index.html",
     "main.5dc83948.css.map": "/static/css/main.5dc83948.css.map",
-    "main.c262dc1a.js.map": "/static/js/main.c262dc1a.js.map",
+    "main.317d337b.js.map": "/static/js/main.317d337b.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5dc83948.css",
-    "static/js/main.c262dc1a.js"
+    "static/js/main.317d337b.js"
   ]
 }
