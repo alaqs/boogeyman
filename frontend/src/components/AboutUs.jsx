@@ -1,12 +1,12 @@
 import { Box, Stack, Grid } from "@mui/material";
-import ali from "../assets/Ali.jpeg";
+import ali from "../assets/ali.png";
+import saqib from "../assets/saqib.png";
 import { Highlight } from "./Highlight";
-const Bio = ({ name, children }) => {
+
+const Bio = ({ name, children, avatar }) => {
   return (
     <Stack alignItems={"center"}>
-      <Box sx={{ borderRadius: "32px", overflow: "hidden" }}>
-        <img src={ali} minWidth="100%" height="200px" alt="awesome founder" />
-      </Box>
+        <img src={avatar} minWidth="100%" height="200px" alt="awesome founder" />
       <Box sx={{ fontWeight: 600, fontSize: "1.2rem" }} mt={2}>
         {name}
       </Box>
@@ -22,14 +22,14 @@ export const AboutUs = () => {
   return (
     <Grid container width="100%">
       <Grid item xs={6} px={2}>
-        <Bio name="Ali">
+        <Bio name="Ali" avatar={ali}>
           With <Highlight>full-stack experience</Highlight> sculpted in Amazon's coding dojo, 
           {" "}I'll make sure your systems get built correctly, reliably and
           {" "}outlast at least myself. 
         </Bio>
       </Grid>
       <Grid item xs={6} px={2}>
-        <Bio name="Saqib">
+        <Bio name="Saqib" avatar={saqib}>
           Consider me your <Highlight>business ops superhero</Highlight>.
           I will build your teams, and keep them motivated. 
           You'll save enough on tech 
