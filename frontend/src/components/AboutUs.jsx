@@ -21,14 +21,14 @@ const Bio = ({ name, children, avatar }) => {
 export const AboutUs = () => {
   return (
     <Grid container width="100%">
-      <Grid item xs={6} px={2}>
+      <Grid item sm={6} xs={12} px={2}>
         <Bio name="Ali" avatar={ali}>
           With <Highlight>full-stack experience</Highlight> sculpted in Amazon's coding dojo, 
           {" "}I'll make sure your systems get built correctly, reliably and
           {" "}outlast at least myself. 
         </Bio>
       </Grid>
-      <Grid item xs={6} px={2}>
+      <Grid item sm={6} xs={12} px={2}>
         <Bio name="Saqib" avatar={saqib}>
           Consider me your <Highlight>business ops superhero</Highlight>.
           I will build your teams, and keep them motivated. 
