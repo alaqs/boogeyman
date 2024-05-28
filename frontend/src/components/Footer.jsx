@@ -12,7 +12,7 @@ export const Footer = () => {
         bottom: 0,
         width: "100%",
         height: footerHeight,
-        backgroundColor: colors.green.light,
+        backgroundColor: colors.white,
       }}
     >
       <Stack
