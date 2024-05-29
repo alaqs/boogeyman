@@ -6,8 +6,7 @@ export const Highlight = ({ children }) => (
       display: "inline-block",
       padding: "0 0.2rem",
       fontWeight: 700,
-      backgroundColor: colors.red,
-      color: "white",
+      color: colors.red,
     }}
   >
     {children}
